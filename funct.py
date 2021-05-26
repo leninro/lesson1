@@ -1,9 +1,13 @@
-def get_summ(one, two, delimiter='&'):
+a = 'Learn'
+b = 'Python'
+delimiter = '&'
 
-  
-    delimiter = str(delimiter)
-    delimiter = one + two
-    return 'delimiter'
-print(delimiter.upper)
-
-get_summ(learn,python)
+c = a + delimiter + b
+print(c)
+    
+def print_with_delim(x,y, delimiter = '&'):
+    x = str(x)
+    y = str(y)
+    z = x + delimiter + y
+    return z
+print_with_delim('Learn','Python')
